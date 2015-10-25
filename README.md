@@ -23,7 +23,7 @@ The script is divided into several sections. Following are description of each s
 
 #### Mean & STD measurements extraction. "Answer to question # 2"
 
-1- Extracting all feature names that has word mean or std using grep function, and storing its index into ft_idx_mean_std variable. This variable consists of 79 feature index.
+1-	Extracting all feature names that has word mean or std using grep function, and storing its index into ft_idx_mean_std variable. This variable consists of 79 feature index. This feature names includes even the feature names that contains meanFreq since it was not mentioned in the assignment to eliminate those.
 
 2- Converting the class of ft_idx_mean_std varaible from data.frame into integer vector.
 
