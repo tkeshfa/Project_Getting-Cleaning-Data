@@ -7,7 +7,7 @@ output: html_document
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-The script is divided into XXXX sections. Following are description of each section
+The script is divided into several sections. Following are description of each section
 
 ## Preparation
 1- Data downloading: where we download the zip file from the provided url, store it in the local storage, and unzip it.
@@ -33,11 +33,11 @@ The script is divided into XXXX sections. Following are description of each sect
 
 2- adding into new file the sub_id and act_id.
 
-## Uses descriptive activity names to name the activities in the data set. "Answer to question # 3"
+## Uses descriptive activity names. "Answer to question # 3"
 
 1- Converting the act_id into activity name based on the provided activity labels to be more informative.
 
-## Appropriately labels the data set with descriptive variable name. "Answer to question # 4"
+## Appropriately labels the data set. "Answer to question # 4"
 
 1 - Converting the measurement names from V names to the feature names as was collected previously in step 3 to be more informative.
 
